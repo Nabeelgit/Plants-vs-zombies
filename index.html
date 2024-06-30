@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants vs Zombies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen" class="screen">
+            <h1>Plants vs Zombies</h1>
+            <button id="start-button">Start Game</button>
+        </div>
+        <div id="play-screen" class="screen hidden">
+            <div id="sun-counter">Sun: <span id="sun-amount">50</span></div>
+            <div id="game-grid"></div>
+            <div id="plant-selector"></div>
+        </div>
+        <div id="win-screen" class="screen hidden">
+            <h2>You Win!</h2>
+            <button id="restart-button-win">Play Again</button>
+        </div>
+        <div id="lose-screen" class="screen hidden">
+            <h2>Game Over</h2>
+            <button id="restart-button-lose">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
